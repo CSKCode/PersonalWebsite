@@ -2,7 +2,17 @@
 
 /* Header Styles */
 .header { width: 100%; height: 100px; background-color: #3162d3; border-bottom: 2.5px solid #000; }
-.title { position: relative; top: 10%; left: 2%; font-size: 450%; color: #FFF; }
+.title { position: relative; width: 10%; height: 70%; top: 10%; left: 2%; font-size: 450%; color: #fff; }
+.home { position: absolute; top: 6.5%; left: 65%; font-size: 150%; color: #fff; list-style: none; }
+.about { position: absolute; top: 6.5%; left: 71%; font-size: 150%; color: #fff; list-style: none; }
+.projects { position: absolute; top: 6.5%; left: 77.5%; font-size: 150%; color: #fff; list-style: none; }
+.contact { position: absolute; top: 6.5%; left: 86%; font-size: 150%; color: #fff; list-style: none; }
+
+.title:hover { cursor: pointer; color: #a9a7a7; }
+.home:hover { cursor: pointer; color: #a9a7a7; }
+.about:hover { cursor: pointer; color: #a9a7a7; }
+.projects:hover { cursor: pointer; color: #a9a7a7; }
+.contact:hover { cursor: pointer; color: #a9a7a7; }
 
 /* 
 1. .title
