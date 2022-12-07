@@ -1,4 +1,13 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
+* {	margin: 0; padding: 0; }
+
+/* Header Styles */
+.header { width: 100%; height: 100px; background-color: #3162d3; border-bottom: 2.5px solid #000; }
+.title { position: relative; top: 10%; left: 2%; font-size: 450%; color: #FFF; }
+
+/* 
+1. .title
+2. .home
+3. .about
+4. .projects
+5. .contact
+*/
